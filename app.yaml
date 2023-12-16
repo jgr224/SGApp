@@ -9,3 +9,7 @@ handlers:
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
+env_variables:
+  MYSQL_HOST: "34.31.243.0"
+  MYSQL_USER: "root"
+  MYSQL_PASSWORD: ""
